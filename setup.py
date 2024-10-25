@@ -11,8 +11,7 @@ with io.open("README.md", 'r', encoding='utf-8') as readme:
     readme_contents = readme.read()
 
 setup(
-    author="Sean Breckenridge",
-    author_email='seanbrecke@gmail.com',
+    author="purarue",
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: End Users/Desktop',
@@ -36,7 +35,7 @@ setup(
             "keepassxc_pwned = keepassxc_pwned.cli:main"
         ]
     },
-    url='https://github.com/seanbreckenridge/keepassxc-pwned',
+    url='https://github.com/purarue/keepassxc-pwned',
     version='0.3.1',
     zip_safe=True,
 )
